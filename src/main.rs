@@ -423,10 +423,10 @@ pub fn main() {
 
             // Set that the frame has not changed
             frame_changed = false;
-        }
 
-        // Swap the double buffered OpenGL
-        window.gl_swap_window();
+            // Swap the double buffered OpenGL
+            window.gl_swap_window();
+        }
         
         // Update frames rendered
         frames += 1;
